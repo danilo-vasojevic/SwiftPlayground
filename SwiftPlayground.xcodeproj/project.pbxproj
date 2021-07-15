@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A80C93F726A02512000D4084 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C93F626A02512000D4084 /* main.swift */; };
+		A80C93FE26A026FC000D4084 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C93FD26A026FC000D4084 /* Employee.swift */; };
+		A80C940026A04237000D4084 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C93FF26A04237000D4084 /* Manager.swift */; };
+		A80C940226A04482000D4084 /* Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C940126A04482000D4084 /* Roles.swift */; };
+		A80C940426A0467F000D4084 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C940326A0467F000D4084 /* Person.swift */; };
+		A80C940626A05366000D4084 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80C940526A05366000D4084 /* Human.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		A80C93F326A02512000D4084 /* SwiftPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80C93F626A02512000D4084 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A80C93FD26A026FC000D4084 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		A80C93FF26A04237000D4084 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A80C940126A04482000D4084 /* Roles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roles.swift; sourceTree = "<group>"; };
+		A80C940326A0467F000D4084 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A80C940526A05366000D4084 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				A80C93F626A02512000D4084 /* main.swift */,
+				A80C940526A05366000D4084 /* Human.swift */,
+				A80C940326A0467F000D4084 /* Person.swift */,
+				A80C93FD26A026FC000D4084 /* Employee.swift */,
+				A80C940126A04482000D4084 /* Roles.swift */,
+				A80C93FF26A04237000D4084 /* Manager.swift */,
 			);
 			path = SwiftPlayground;
 			sourceTree = "<group>";
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80C940426A0467F000D4084 /* Person.swift in Sources */,
+				A80C940626A05366000D4084 /* Human.swift in Sources */,
 				A80C93F726A02512000D4084 /* main.swift in Sources */,
+				A80C940026A04237000D4084 /* Manager.swift in Sources */,
+				A80C93FE26A026FC000D4084 /* Employee.swift in Sources */,
+				A80C940226A04482000D4084 /* Roles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
